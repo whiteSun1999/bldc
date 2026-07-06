@@ -22,7 +22,7 @@ jobs:
           make HW_SOURCE=make HW_SOURCE=75_100
 
       - name: Upload Artifact
-        uses: actions/artifacts@v4
+        uses: actions/artifact@v4
         with:
           name: VESC-Firmware-Binary
           path: build/*.bin
